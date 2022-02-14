@@ -53,6 +53,7 @@ li a {
 }
 
 .header {
+    flex-wrap: wrap;
     padding: 5px;
     font-family: fantasy;
     background-color: blue;
@@ -100,8 +101,9 @@ a {
 
 .profile {
     display: flex;
-   
-    text-align: center;
+    justify-content: flex-start;
+    text-align: left;
+
 }
 
 .profile >*{
@@ -112,23 +114,28 @@ a {
 }
 
 .info {
+    padding: 10px;
+    margin: 10px;
     text-align: center;
     background-color: blue;
-    height: 300px;
+    
     font-size: 24px;
+    flex:1 1 100%;
 }
 
 .projects {
     background-color: blue;
+    height: 150px;
 }
 
 .contact_info {
     background-color: blue;
-    height: 300px;
+    height: 250px;
 }
 
 .experience {
     background-color: blue;
+    height: 100px;
 }
 
  
@@ -148,7 +155,7 @@ address {
     }
 
     .experience {
-        order: 3;
+        order: 2;
     }
     .info{
         order: 2;
@@ -158,6 +165,11 @@ address {
         order: 4;
     }
 
+}
+@media all and (min-width:600px) {
+    .info { flex: auto;}
+
+    .projects { flex: auto;}
 }
 
 
