@@ -1,0 +1,77 @@
+* { 
+    color:#ffffff;
+    border-radius: 15px;
+    text-shadow: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html, body{    
+    background-image: url(/Users/hectorpalacios/Desktop/myprofile/assets/images/volcan_izalco.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-size: 30px;
+}
+body {
+    background: rgb(245,24 8, 250);
+    padding: 0;
+    margin: 0;
+}
+
+
+h3 {
+    font-size: 20px;
+}
+
+h2, h3, li {
+    color:#ffffff;
+}
+
+li a {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.header {
+    padding: 5px;
+    font-family: fantasy;
+    background-color: rgb(41, 73, 4);
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 60px;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: fantasy;
+    font-size: 30px;
+    width: 50%;
+}
+
+.header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.header nav ul li a:hover {
+    background: #ffffff;
+}
+
+.header ul {
+    list-style: none;
+    display: inline-block;
+}
+
