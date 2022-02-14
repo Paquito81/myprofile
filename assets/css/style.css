@@ -100,7 +100,7 @@ a {
 
 .profile {
     display: flex;
-    flex-flow: row wrap;
+   
     text-align: center;
 }
 
@@ -114,7 +114,8 @@ a {
 .info {
     text-align: center;
     background-color: blue;
-    height: 120px;
+    height: 300px;
+    font-size: 24px;
 }
 
 .projects {
@@ -122,10 +123,11 @@ a {
 }
 
 .contact_info {
-    padding: 10px;
-    margin: 10px;
-    flex: 1 100%;
-    border-radius: 15px;
+    background-color: blue;
+    height: 300px;
+}
+
+.experience {
     background-color: blue;
 }
 
@@ -137,21 +139,25 @@ address {
 }
 
 @media all and (min-width: 800px){
-    .info {
-        flex: 3;
-    }
+   .info {
+       flex: 2 0px;
+   }
 
     .projects{
         order: 1;
     }
 
-    .contact_info {
-        order: 2;
+    .experience {
+        order: 3;
     }
-
     .info{
         order: 2;
     }
 
+    .contact_info {
+        order: 4;
+    }
+
 }
+
 
